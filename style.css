@@ -556,7 +556,7 @@ p.text {
     }
     .main-bg {
         filter: brightness(30%);
-        padding-left: -2.5rem;
+        padding-left: -2.5rem !important;
     }
     .headline-short {
         font-size: 0.9rem;
