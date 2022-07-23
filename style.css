@@ -552,11 +552,11 @@ p.text {
 
 @media only screen and (max-width: 576px) {
     .main-background{ 
-        padding-left: 2.5rem;
+        margin-left: 2.5rem;
     }
     .main-bg {
         filter: brightness(30%);
-        padding-left: -2.5rem !important;
+        margin-left: -2.5rem !important;
     }
     .headline-short {
         font-size: 0.9rem;
