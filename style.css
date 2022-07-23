@@ -552,7 +552,7 @@ p.text {
 
 @media only screen and (max-width: 576px) {
     .main-background{ 
-        margin-left: 2.5rem;
+        padding-left: 2.5rem;
     }
     .main-bg {
         filter: brightness(30%);
