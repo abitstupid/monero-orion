@@ -135,11 +135,19 @@ p.text {
     overflow-y: auto;
     }
 
-    .sign-in {
+    .signin {
         padding: 0.6rem;
-        border-radius: 0;
+        height: 4rem;
+        border-radius: 0%;
         background-color: #F27916;
+        position: relative;
+        top: -12px;
     }
+    
+    .sign-in:hover {    
+        border-radius: 0%;
+    }
+    
 }
 
 /* body css for desktop */
@@ -466,6 +474,7 @@ p.text {
     background-color: #26315E;
     padding-top: 1rem;
     padding-bottom: 2rem;
+    margin-left: -16px;
 }
 .footer-project-text {
     font-size: 1.5rem;
@@ -610,6 +619,11 @@ p.text {
 
     .last {
         width: 80vw;
+    }
+
+    
+    .footer-project-text {
+        font-size: 1.2rem;
     }
 
 }
